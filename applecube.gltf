@@ -109,7 +109,14 @@
             "normalTexture" : {
                 "index" : 0
             }, 
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                }, 
+                "metallicRoughnessTexture" : {
+                    "index" : 1
+                }
+            }
         }
     ], 
     "meshes" : [
