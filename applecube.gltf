@@ -97,23 +97,19 @@
     ], 
     "images" : [
         {
-            "uri" : "applecube_color.png"
+            "uri" : "applecube_normalmap.png"
         }, 
         {
-            "uri" : "applecube_normalmap.png"
+            "uri" : "applecube_color.png"
         }
     ], 
     "materials" : [
         {
             "name" : "Material.002", 
             "normalTexture" : {
-                "index" : 1
+                "index" : 0
             }, 
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                }
-            }
+            "pbrMetallicRoughness" : {}
         }
     ], 
     "meshes" : [
