@@ -98,26 +98,15 @@
     "images" : [
         {
             "uri" : "applecube_normalmap.png"
-        }
-           {
+        }, 
+        {
             "uri" : "applecube_emissivemap.png"
-        }
-                 {
+        }, 
+        {
             "uri" : "studio026.png"
         }
     ], 
-    
-    {
-  "environments": [
-    {
-      "environmentTexture": 2,
-      "type": "sphere"
-    },
-  ]
-}
-
     "materials" : [
-     
         {
             "name" : "Material.002", 
             "normalTexture" : {
@@ -126,15 +115,6 @@
             "pbrMetallicRoughness" : {
                 "roughnessFactor" : 0.5510203838348389
             }
-                {
-            "emissiveFactor" : [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "emissiveTexture" : {
-                "index" : 1
-            },
         }
     ], 
     "meshes" : [
@@ -185,6 +165,14 @@
         {
             "sampler" : 0, 
             "source" : 0
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 1
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 2
         }
     ]
 }
