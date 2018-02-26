@@ -138,7 +138,7 @@
             "doubleSided" : true, 
             "extensions" : {
                 "KHR_materials_pbrSpecularGlossiness" : {
-                    "diffuseTexture" : {
+                    "baseColorTexture" : {
                         "index" : 1
                     }, 
                     "glossinessFactor" : 0.3306122124195099
