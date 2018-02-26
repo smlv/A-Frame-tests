@@ -107,23 +107,11 @@
         }
     ], 
     "materials" : [
-    
-            {
-            "emissiveFactor" : [
-                1.0,
-                1.0,
-                1.0
-            ],
-               "emissiveTexture" : {
-                "index" : 1
-            },
-
         {
             "name" : "Material.002", 
             "normalTexture" : {
                 "index" : 0
             }, 
-                  
             "pbrMetallicRoughness" : {
                 "roughnessFactor" : 0.5510203838348389
             }
