@@ -57,6 +57,24 @@
                 0.0
             ], 
             "type" : "VEC2"
+        }, 
+        {
+            "bufferView" : 4, 
+            "componentType" : 5126, 
+            "count" : 7304, 
+            "max" : [
+                1.0, 
+                1.0, 
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                1.0, 
+                1.0, 
+                1.0, 
+                1.0
+            ], 
+            "type" : "VEC4"
         }
     ], 
     "asset" : {
@@ -87,11 +105,17 @@
             "byteLength" : 58432, 
             "byteOffset" : 224328, 
             "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 116864, 
+            "byteOffset" : 282760, 
+            "target" : 34962
         }
     ], 
     "buffers" : [
         {
-            "byteLength" : 282760, 
+            "byteLength" : 399624, 
             "uri" : "applecube.bin"
         }
     ], 
@@ -107,22 +131,17 @@
         }, 
         {
             "uri" : "applecube_color.png"
-        }, 
-        {
-            "uri" : "applecube_normalmap.png"
         }
     ], 
     "materials" : [
         {
+            "doubleSided" : true, 
             "extensions" : {
                 "KHR_materials_pbrSpecularGlossiness" : {
                     "glossinessFactor" : 0.3306122124195099
                 }
             }, 
-            "name" : "Material.002", 
-            "normalTexture" : {
-                "index" : 2
-            }
+            "name" : "Material.002"
         }
     ], 
     "meshes" : [
@@ -131,6 +150,7 @@
             "primitives" : [
                 {
                     "attributes" : {
+                        "COLOR_0" : 4, 
                         "NORMAL" : 2, 
                         "POSITION" : 1, 
                         "TEXCOORD_0" : 3
@@ -177,10 +197,6 @@
         {
             "sampler" : 0, 
             "source" : 1
-        }, 
-        {
-            "sampler" : 0, 
-            "source" : 2
         }
     ]
 }
