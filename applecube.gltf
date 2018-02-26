@@ -57,24 +57,6 @@
                 0.0
             ], 
             "type" : "VEC2"
-        }, 
-        {
-            "bufferView" : 4, 
-            "componentType" : 5126, 
-            "count" : 7304, 
-            "max" : [
-                1.0, 
-                1.0, 
-                1.0, 
-                1.0
-            ], 
-            "min" : [
-                1.0, 
-                1.0, 
-                1.0, 
-                1.0
-            ], 
-            "type" : "VEC4"
         }
     ], 
     "asset" : {
@@ -105,45 +87,44 @@
             "byteLength" : 58432, 
             "byteOffset" : 224328, 
             "target" : 34962
-        }, 
-        {
-            "buffer" : 0, 
-            "byteLength" : 116864, 
-            "byteOffset" : 282760, 
-            "target" : 34962
         }
     ], 
     "buffers" : [
         {
-            "byteLength" : 399624, 
+            "byteLength" : 282760, 
             "uri" : "applecube.bin"
         }
     ], 
+    "extensionsRequired" : [
+        "KHR_materials_pbrSpecularGlossiness"
+    ], 
+    "extensionsUsed" : [
+        "KHR_materials_pbrSpecularGlossiness"
+    ], 
     "images" : [
-        {
-            "uri" : "applecube_normalmap.png"
-        }, 
         {
             "uri" : "applecube_emissivemap.png"
         }, 
         {
             "uri" : "applecube_color.png"
+        }, 
+        {
+            "uri" : "applecube_normalmap.png"
         }
     ], 
     "materials" : [
         {
-            "emissiveTexture" : {
-                "index" : 1
+            "extensions" : {
+                "KHR_materials_pbrSpecularGlossiness" : {
+                    "diffuseTexture" : {
+                        "index" : 1
+                    }, 
+                    "glossinessFactor" : 0.3306122124195099
+                }
             }, 
             "name" : "Material.002", 
             "normalTexture" : {
-                "index" : 0
-            }, 
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 2
-                }, 
-                "roughnessFactor" : 0.5510203838348389
+                "index" : 2
             }
         }
     ], 
@@ -153,7 +134,6 @@
             "primitives" : [
                 {
                     "attributes" : {
-                        "COLOR_0" : 4, 
                         "NORMAL" : 2, 
                         "POSITION" : 1, 
                         "TEXCOORD_0" : 3
