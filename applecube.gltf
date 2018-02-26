@@ -116,9 +116,6 @@
         {
             "extensions" : {
                 "KHR_materials_pbrSpecularGlossiness" : {
-                    "diffuseTexture" : {
-                        "index" : 1
-                    }, 
                     "glossinessFactor" : 0.3306122124195099
                 }
             }, 
