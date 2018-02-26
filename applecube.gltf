@@ -57,6 +57,24 @@
                 0.0
             ], 
             "type" : "VEC2"
+        }, 
+        {
+            "bufferView" : 4, 
+            "componentType" : 5126, 
+            "count" : 7304, 
+            "max" : [
+                1.0, 
+                1.0, 
+                1.0, 
+                1.0
+            ], 
+            "min" : [
+                1.0, 
+                1.0, 
+                1.0, 
+                1.0
+            ], 
+            "type" : "VEC4"
         }
     ], 
     "asset" : {
@@ -87,11 +105,17 @@
             "byteLength" : 58432, 
             "byteOffset" : 224328, 
             "target" : 34962
+        }, 
+        {
+            "buffer" : 0, 
+            "byteLength" : 116864, 
+            "byteOffset" : 282760, 
+            "target" : 34962
         }
     ], 
     "buffers" : [
         {
-            "byteLength" : 282760, 
+            "byteLength" : 399624, 
             "uri" : "applecube.bin"
         }
     ], 
@@ -113,6 +137,9 @@
                 "index" : 0
             }, 
             "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2
+                }, 
                 "roughnessFactor" : 0.5510203838348389
             }
         }
@@ -123,6 +150,7 @@
             "primitives" : [
                 {
                     "attributes" : {
+                        "COLOR_0" : 4, 
                         "NORMAL" : 2, 
                         "POSITION" : 1, 
                         "TEXCOORD_0" : 3
