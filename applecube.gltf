@@ -131,6 +131,9 @@
         }, 
         {
             "uri" : "applecube_color.png"
+        }, 
+        {
+            "uri" : "applecube_normalmap.png"
         }
     ], 
     "materials" : [
@@ -138,13 +141,16 @@
             "doubleSided" : true, 
             "extensions" : {
                 "KHR_materials_pbrSpecularGlossiness" : {
-                    "baseColorTexture" : {
+                    "diffuseTexture" : {
                         "index" : 1
                     }, 
                     "glossinessFactor" : 0.3306122124195099
                 }
             }, 
-            "name" : "Material.002"
+            "name" : "Material.002", 
+            "normalTexture" : {
+                "index" : 2
+            }
         }
     ], 
     "meshes" : [
@@ -200,6 +206,10 @@
         {
             "sampler" : 0, 
             "source" : 1
+        }, 
+        {
+            "sampler" : 0, 
+            "source" : 2
         }
     ]
 }
