@@ -91,9 +91,9 @@
         {
             "bufferView" : 6, 
             "componentType" : 5123, 
-            "count" : 69855, 
+            "count" : 89511, 
             "max" : [
-                19537
+                25718
             ], 
             "min" : [
                 0
@@ -103,9 +103,9 @@
         {
             "bufferView" : 7, 
             "componentType" : 5126, 
-            "count" : 19538, 
+            "count" : 25719, 
             "max" : [
-                0.40266215801239014, 
+                0.4171368181705475, 
                 3.2195000648498535, 
                 0.6146373152732849
             ], 
@@ -119,88 +119,30 @@
         {
             "bufferView" : 8, 
             "componentType" : 5126, 
-            "count" : 19538, 
+            "count" : 25719, 
             "max" : [
                 0.9998779296875, 
                 0.9998779296875, 
-                0.99993896484375
+                0.999969482421875
             ], 
             "min" : [
                 -0.999847412109375, 
                 -0.999847412109375, 
-                -0.999786376953125
+                -0.999969482421875
             ], 
             "type" : "VEC3"
         }, 
         {
             "bufferView" : 9, 
             "componentType" : 5126, 
-            "count" : 19538, 
+            "count" : 25719, 
             "max" : [
-                0.9689104557037354, 
+                1.0002222061157227, 
                 0.9828734956681728
             ], 
             "min" : [
-                0.9544131755828857, 
-                0.9647624902427197
-            ], 
-            "type" : "VEC2"
-        }, 
-        {
-            "bufferView" : 10, 
-            "componentType" : 5123, 
-            "count" : 98304, 
-            "max" : [
-                22891
-            ], 
-            "min" : [
-                0
-            ], 
-            "type" : "SCALAR"
-        }, 
-        {
-            "bufferView" : 11, 
-            "componentType" : 5126, 
-            "count" : 22892, 
-            "max" : [
-                0.41713690757751465, 
-                3.1537582874298096, 
-                0.03129178285598755
-            ], 
-            "min" : [
-                -1.489920973777771, 
-                1.298816442489624, 
-                -1.0965006351470947
-            ], 
-            "type" : "VEC3"
-        }, 
-        {
-            "bufferView" : 12, 
-            "componentType" : 5126, 
-            "count" : 22892, 
-            "max" : [
-                0.9998779296875, 
-                0.99969482421875, 
-                0.999969482421875
-            ], 
-            "min" : [
-                -0.999908447265625, 
-                -0.9788201451301575, 
-                -0.999969482421875
-            ], 
-            "type" : "VEC3"
-        }, 
-        {
-            "bufferView" : 13, 
-            "componentType" : 5126, 
-            "count" : 22892, 
-            "max" : [
-                1.0, 
-                0.9476537592709064
-            ], 
-            "min" : [
-                0.0, 
-                0.00028133392333984375
+                -0.0010397011647000909, 
+                0.0002071857452392578
             ], 
             "type" : "VEC2"
         }
@@ -248,56 +190,32 @@
         }, 
         {
             "buffer" : 0, 
-            "byteLength" : 139710, 
+            "byteLength" : 179022, 
             "byteOffset" : 49284, 
             "target" : 34963
         }, 
         {
             "buffer" : 0, 
-            "byteLength" : 234456, 
-            "byteOffset" : 188996, 
+            "byteLength" : 308628, 
+            "byteOffset" : 228308, 
             "target" : 34962
         }, 
         {
             "buffer" : 0, 
-            "byteLength" : 234456, 
-            "byteOffset" : 423452, 
+            "byteLength" : 308628, 
+            "byteOffset" : 536936, 
             "target" : 34962
         }, 
         {
             "buffer" : 0, 
-            "byteLength" : 156304, 
-            "byteOffset" : 657908, 
-            "target" : 34962
-        }, 
-        {
-            "buffer" : 0, 
-            "byteLength" : 196608, 
-            "byteOffset" : 814212, 
-            "target" : 34963
-        }, 
-        {
-            "buffer" : 0, 
-            "byteLength" : 274704, 
-            "byteOffset" : 1010820, 
-            "target" : 34962
-        }, 
-        {
-            "buffer" : 0, 
-            "byteLength" : 274704, 
-            "byteOffset" : 1285524, 
-            "target" : 34962
-        }, 
-        {
-            "buffer" : 0, 
-            "byteLength" : 183136, 
-            "byteOffset" : 1560228, 
+            "byteLength" : 205752, 
+            "byteOffset" : 845564, 
             "target" : 34962
         }
     ], 
     "buffers" : [
         {
-            "byteLength" : 1743364, 
+            "byteLength" : 1051316, 
             "uri" : "cheesechair.bin"
         }
     ], 
@@ -310,9 +228,6 @@
     "images" : [
         {
             "uri" : "cheeseColor.png"
-        }, 
-        {
-            "uri" : "googleSearch.png"
         }
     ], 
     "materials" : [
@@ -325,16 +240,6 @@
                 }
             }, 
             "name" : "Cheese"
-        }, 
-        {
-            "extensions" : {
-                "KHR_materials_pbrSpecularGlossiness" : {
-                    "diffuseTexture" : {
-                        "index" : 1
-                    }
-                }
-            }, 
-            "name" : "Google"
         }
     ], 
     "meshes" : [
@@ -373,15 +278,6 @@
                     }, 
                     "indices" : 6, 
                     "material" : 0
-                }, 
-                {
-                    "attributes" : {
-                        "NORMAL" : 12, 
-                        "POSITION" : 11, 
-                        "TEXCOORD_0" : 13
-                    }, 
-                    "indices" : 10, 
-                    "material" : 1
                 }
             ]
         }
@@ -461,10 +357,6 @@
         {
             "sampler" : 0, 
             "source" : 0
-        }, 
-        {
-            "sampler" : 0, 
-            "source" : 1
         }
     ]
 }
